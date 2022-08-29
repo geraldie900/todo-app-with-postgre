@@ -13,8 +13,7 @@ type Todo struct {
 }
 
 type TodoHTTPQueryParameter struct {
-	ID        string `json:"id,omitempty" query:"id"`
-	Timestamp string `json:"timestamp,omitempty" query:"timestamp"`
-	Title     string `json:"title,omitempty" query:"title"`
-	Number    int    `json:"number,omitempty" query:"number"`
+	ID     string `json:"id,omitempty" query:"id"`
+	Title  string `json:"title,omitempty" query:"title"`
+	Number int    `json:"number,omitempty" query:"number"`
 }
